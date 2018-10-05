@@ -32,8 +32,8 @@ RUN apt-get install -qqy texlive-full
 RUN apt-get install -qqy texlive-fonts-extra
 RUN apt-get install -qqy sox
 RUN apt-get install -qqy git
-RUN apt-get install vim
-RUN apt-get install banshee
+RUN apt-get install -qqy vim
+RUN apt-get install -qqy banshee
 
 ENV DEBIAN_FRONTEND teletype
 ENTRYPOINT ["/bin/bash"]
