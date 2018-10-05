@@ -2,6 +2,7 @@ import os
 
 
 def play_chord(*nums):
+    '''
     commands = [
         "play",
         "-n",
@@ -19,7 +20,7 @@ def play_chord(*nums):
         os.system(" ".join(commands))
     except:
         pass
-
+    '''
 
 def play_error_sound():
     play_chord(11, 8, 6, 1)
